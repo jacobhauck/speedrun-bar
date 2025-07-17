@@ -36,6 +36,7 @@ public class SpeedrunTimer {
     }
 
     public void renderBar(Graphics2D graphics, Client client) {
+        // Draws the timer bar below the NPC's health bar
         LocalPoint npcLocation = npc.getLocalLocation();
         var wv = client.getWorldView(npcLocation.getWorldView());
         int plane = wv.getPlane();

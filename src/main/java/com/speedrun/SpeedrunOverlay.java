@@ -16,6 +16,8 @@ public class SpeedrunOverlay extends Overlay {
     @Inject
     Client client;
 
+    // Store timers indexed by NPC; this makes it possible to have multiple
+    // bars on-screen at once, but this capability is currently not used.
     private Map<NPC, SpeedrunTimer> timers;
 
     public void setupSpeedrunOverlay()

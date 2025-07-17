@@ -22,7 +22,7 @@ public interface SpeedrunConfig extends Config
             position = 1,
             keyName = "customTime",
             name = "Custom Time (ticks)",
-            description = "A custom speed run time (in ticks) to use with timers"
+            description = "A custom speedrun time (in ticks) to use for all timers"
     )
     default int customTime()
     {
