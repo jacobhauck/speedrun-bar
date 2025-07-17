@@ -5,6 +5,8 @@ indicates the pace you need to beat to get the most difficult
 speedrunning task for that boss. Custom speedrun times can also
 be used.
 
+![Example image at Vorkath](Vorkath%20example.png)
+
 ### Currently supported bosses
 
 - Vorkath
